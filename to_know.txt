@@ -1,0 +1,34 @@
+Type	Ordered	Mutable	Duplicates	Access By	   Syntax
+Tuple	✅	       ❌	✅	         Index	     (1, 2)
+List	✅	       ✅	✅	         Index	     [1, 2]
+Set	    ❌	       ✅	❌	     Not by index	 {1, 2}
+Dic 	✅	       ✅	Keys: ❌	     Key	   {'key': value, 'key': value}
+
+
+L6 UNIT TESTING:
+in the testing file - and example with assert try and except
+
+🔸 Example:
+def check_age(age):
+    try:
+        assert age >= 18, "Age must be 18 or older"
+        print("Access granted.")
+    except AssertionError as error:  THE ERROR HERE IS FROM THE ASSERTION MESSAGE
+        print("Access denied:", error)
+🔸 Usage:
+check_age(20)
+check_age(15)
+🔸 Output:
+Access granted.
+Access denied: Age must be 18 or older
+
+
+L7 SORTING:
+
+Selection Sort:
+
+Bubble Sort:
+
+Insertion Sort:
+
+
